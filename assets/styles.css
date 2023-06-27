@@ -1,0 +1,31 @@
+/* HEADER CONTENT */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #31343D;
+    height: 100px;
+}
+
+header ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+header li {
+    margin: 0 15px;
+    border-bottom: 2.5px solid #92CBCD;
+}
+
+header a {
+    text-decoration: none;
+    color: #92CBCD;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #31343D;
+    padding: 17.5px 17.5px 17.5px 10%;
+    background-color: #92CBCD;
+}
