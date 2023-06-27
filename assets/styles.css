@@ -29,3 +29,26 @@ h1 {
     padding: 17.5px 17.5px 17.5px 10%;
     background-color: #92CBCD;
 }
+
+/* HEAD IMAGE */
+.headImage {
+    position: relative;
+    background-image: url(../images/head-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 175px;
+}
+
+.headImage h2 {
+    /* Style */
+    font-size: 1.75rem;
+    background-color: #92CBCD;
+    width: fit-content;
+    padding: 10px;
+    /* Position */
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+}
