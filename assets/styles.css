@@ -52,3 +52,30 @@ h1 {
     bottom: 25px;
     right: 50px;
 }
+
+/* Main */
+main {}
+
+
+section {
+    display: flex;
+    margin: 50px 10% auto 15%;
+}
+
+aside {
+    width: fit-content;
+    border-right: 5px solid black;
+    padding-right: 50px;
+}
+
+h3 {
+    font-size: 2.25rem;
+    margin-left: 15%;
+    text-align: right;
+}
+
+/* About Me */
+.aboutMeText {
+    margin-left: 25px;
+    line-height: 1.5rem;
+}
