@@ -116,3 +116,19 @@ h3 {
 #sq3 {}
 
 #sq4 {}
+
+/* Contact Me */
+.contactMe ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contactMe a {
+    text-decoration: none;
+    color: #92CBCD;
+    font-size: 1.25rem;
+}
+
+/* USE MEDIA QUERIES TO MAKE THE SQAURES STACK ONTO EACHOTHER */
