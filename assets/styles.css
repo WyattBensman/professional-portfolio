@@ -152,29 +152,29 @@ h4 {
     top: 65%;
 }
 
-.grid div:hover {
+.grid a:hover {
     opacity: 75%;
 }
 
 /* Contact Me */
-.contactMe {
+.contactMeSection {
     padding-bottom: 50px;
 }
 
-.contactMe ul {
+.contactMeSection ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
 }
 
-.contactMe a {
+.contactMeSection a {
     text-decoration: none;
     color: black;
     font-size: 1.25rem;
 }
 
-.contactMe li {
+.contactMeSection li {
     border-bottom: 2.5px solid #92CBCD;
     padding-bottom: 5px;
 }
