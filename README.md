@@ -1,6 +1,5 @@
 # professional-portfolio
 
-
 ## Description
 
 This web application was built to highlight my present & future work as a web developer. A way for potential employers, or clients, to easily find & view my past projects and decide if I'd be a good fit for them to work with. The webpage also contains information regarding my person life, and how to get in contact with me.
@@ -19,7 +18,7 @@ Lastly, the user will find the 'Contact Me' section, which will provide the user
 - LinkedIn
 - Instagram
 
-NEED SCREENSHOT
+![Full Screen Screenshot](./images/Full-Screen-Screenshot.png)
 
 ## Credits
 
