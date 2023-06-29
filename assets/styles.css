@@ -35,6 +35,22 @@ h1 {
     background-color: #92CBCD;
 }
 
+@media screen and (max-width: 955px) {
+    header a {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header a {
+        font-size: 1rem;
+    }
+}
+
 /* HEAD IMAGE */
 .headImage {
     position: relative;
@@ -84,6 +100,27 @@ h3 {
     line-height: 1.5rem;
 }
 
+@media screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+        margin: 25px 10%;
+    }
+
+    aside {
+        border-right: none;
+        border-bottom: 5px solid #445876;
+        padding-right: 0;
+        margin-bottom: 15px;
+        width: auto;
+    }
+
+    h3 {
+        text-align: center;
+        margin-left: 0;
+        width: auto;
+    }
+}
+
 /* Work Section */
 .grid {
     width: 100%;
@@ -92,7 +129,6 @@ h3 {
 
 .wrapper {
     display: grid;
-
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
@@ -156,6 +192,30 @@ h4 {
     opacity: 75%;
 }
 
+/* Media query for column layout */
+@media (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .grid {
+        margin-left: 0;
+    }
+
+    .largeIcon,
+    .squareIcon {
+        grid-column: auto;
+        grid-row: auto;
+        height: auto;
+    }
+
+    h4 {
+        font-size: .75rem;
+        padding: 7.5px;
+        top: 60%;
+    }
+}
+
 /* Contact Me */
 .contactMeSection {
     padding-bottom: 50px;
@@ -179,5 +239,12 @@ h4 {
     padding-bottom: 5px;
 }
 
+@media (max-width: 768px) {
+    .contactMeSection ul {
+        flex-direction: column;
+    }
 
-/* USE MEDIA QUERIES TO MAKE THE SQAURES STACK ONTO EACHOTHER */
+    .contactMeSection li {
+        margin: 5px auto;
+    }
+}
